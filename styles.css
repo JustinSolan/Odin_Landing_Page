@@ -1,3 +1,5 @@
+/* root characteristics */
+
 body {
     padding: 0;
     margin: 0;
@@ -11,7 +13,7 @@ ul {
     list-style: none;
 }
 
-/* root characteristics^ */
+/* 1st panel */
 
 .bg1 {
     background-color: #1F2937;
@@ -91,27 +93,32 @@ button {
     font-weight: 700;
 }
 
+/* 2nd panel */
+
 .bg2 h1 {
     justify-content: center;
     display: flex;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .box-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;px;
 }
 
 .box1, .box2, .box3, .box4 {
+    width: 120px;
+    height: 120px;
+    border: solid 5px rgb(99, 99, 247);
+    border-radius: 10px;
     display: flex;
-    background-color: grey;
-    width: 10px;
-    height: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.bg2 p {
-    margin-top: 70px;
+.box-container p {
+    margin-top: 140px;
 }
-
-
-
 
