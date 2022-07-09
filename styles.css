@@ -147,3 +147,31 @@ button {
     font-weight: bold;
     font-size: 18px;
 }
+
+/* 4th panel */
+
+.bg4 {
+
+}
+
+.bluebox {
+    display: flex;
+    background-color: rgb(99, 99, 247);
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 12px;
+    gap: 200px;
+    padding: 20px;
+}
+
+.boxleft h4 {
+    margin-bottom: -10px;
+}
+
+.boxright button {
+    font-size: 18px;
+    border: solid white 2px;
+    height: 40px;
+}
