@@ -7,6 +7,7 @@ body {
 
 html {
     font-family: Tahoma;
+    font-size: 24px;
 }
 
 ul {
@@ -32,12 +33,12 @@ ul {
 .top p {
     color: white;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 40px;
 }
 
 .top ul {
     color: rgb(147, 147, 147);
-    font-size: 10px;
+    font-size: 24px;
     display: flex;
     gap: 20px;
 }
@@ -71,7 +72,7 @@ ul {
 }
 
 .left h2 {
-    font-size: 38px;
+    font-size: 52px;
     margin-bottom: 0px;
 }
 
@@ -82,8 +83,8 @@ ul {
 button {
     display: flex;
     flex-shrink: 1;
-    width: 100px;
-    height: 26px;
+    width: 160px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     color: inherit;
@@ -91,6 +92,7 @@ button {
     border: none;
     border-radius: 5px;
     font-weight: 700;
+    font-size: 20px;
 }
 
 /* 2nd panel */
@@ -129,23 +131,25 @@ button {
     flex-direction: column;
     background-color: rgba(221, 221, 221, 0.699);
     margin-top: 80px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 320px;
+    gap: 20px;
 }
 
 .bg3 h4 {
     font-style: italic;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 36px;
+    font-size: 52px;
     color:rgb(0, 0, 0);
     font-weight: lighter;
+    margin-bottom: 0px;
 }
 
 .bg3 p {
     margin-left: 500px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* 4th panel */
@@ -171,7 +175,7 @@ button {
 .boxleft .bold {
     margin-bottom: -12px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
    
 
@@ -190,6 +194,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
 }
